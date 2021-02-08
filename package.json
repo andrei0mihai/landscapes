@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
@@ -48,6 +49,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.5.0",
+    "gh-pages": "^3.1.0",
     "husky": "^4.3.8",
     "jsdom": "^16.4.0",
     "jsdom-global": "^3.0.2",
