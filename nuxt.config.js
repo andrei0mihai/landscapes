@@ -1,4 +1,7 @@
 export default {
+  router: {
+    base: '/landscapes/',
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   ssr: false,
